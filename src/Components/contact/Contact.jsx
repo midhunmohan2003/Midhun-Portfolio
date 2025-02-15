@@ -1,20 +1,39 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import './contact.css'
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "./contact.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
+  const form = useRef();
 
-    const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs
-        .sendForm('service_ukuwcoc', 'template_kbv3b0c', form.current, {
-          publicKey: 'iS9yNSRBSYoH8CSDy',
-        })
-        e.target.reset()
-    };
+    const name = form.current.name.value.trim();
+    const email = form.current.email.value.trim();
+    const message = form.current.message.value.trim();
+
+    if (!name || !email || !message) {
+      toast.warning("All fields are required.");
+      return;
+    }
+
+    emailjs
+      .sendForm("service_ukuwcoc", "template_kbv3b0c", form.current, {
+        publicKey: "iS9yNSRBSYoH8CSDy",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          e.target.reset();
+          toast.sucess("Email Sent");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
 
   return (
     <>
@@ -34,8 +53,11 @@ function Contact() {
                   midhunmohan2215@gmail.com
                 </span>
 
-                <a href="mailto:midhunmohan2215@gmail.com" className="contact__button">
-                  Write me{" "}
+                <a
+                  href="mailto:midhunmohan2215@gmail.com"
+                  className="contact__button"
+                >
+                  Message me{" "}
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>
@@ -52,7 +74,7 @@ function Contact() {
                   target="_blank"
                   className="contact__button"
                 >
-                  Write me{" "}
+                  Message me{" "}
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>
@@ -68,7 +90,7 @@ function Contact() {
                   name="name"
                   className="contact__form-input"
                   placeholder="Enter your name"
-                /> 
+                />
               </div>
               <br />
 
@@ -91,7 +113,11 @@ function Contact() {
               </div>
               <br />
 
-              <button className="button button--flex" type="submit" value="Send">
+              <button
+                className="button button--flex"
+                type="submit"
+                value="Send"
+              >
                 Send Message
                 <svg
                   class="button__icon"
@@ -115,6 +141,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      <ToastContainer autoClose={2000} position="top-center" theme="colored" />
     </>
   );
 }

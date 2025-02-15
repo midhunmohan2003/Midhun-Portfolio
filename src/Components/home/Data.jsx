@@ -8,12 +8,12 @@ function Data() {
           Midhun Mohan
         </h1>
         <h3 className="home__subtitle">MERN Stack Developer</h3>
-        <p className="home__description">
+        {/* <p className="home__description">
           I'm a Full Stack Developer proficient in designing seamless user
           experiences, building robust server-side applications. 
-        </p>
+        </p> */}
 
-        <a href="#contact" className="button button--flex">
+        <a href="#contact" className="button button--flex homeButton">
             Say Hello
             <svg
                   class="button__icon"

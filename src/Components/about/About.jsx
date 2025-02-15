@@ -19,9 +19,8 @@ function About() {
                 <p className="about__description">
                 I'm a Full Stack Developer proficient in designing seamless user
                 experiences, building robust server-side applications, and managing
-                databases efficiently & I'm very passionate about creating innovative
-                and functional solutions & I'm very passionate about creating innovativeand 
-                functional solutions.
+                databases efficiently. I'm very passionate about creating innovative
+                and functional solutions.
                 </p>
                 <a href={CV} download="" className="button button--flex">
                     Download Resume

@@ -4,7 +4,8 @@
     top: 0;
     left: 0;
     padding-top: 3px;
-    z-index: var(--body-color);    
+    /* z-index: var(--body-color);     */
+    z-index: 1000;
 }
 
 .scroll-header {
@@ -51,8 +52,6 @@
 .active-link,.nav__link:hover{
     color: var(--title-color-dark);
 }
-
-
 
 
 
@@ -122,3 +121,9 @@
         column-gap: 0;
     }
 }
+
+
+
+
+
+

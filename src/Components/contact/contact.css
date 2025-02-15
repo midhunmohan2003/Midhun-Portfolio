@@ -1,3 +1,8 @@
+.contact{
+    position: relative;
+    z-index: 1;
+}
+
 .contact__container{
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
@@ -43,6 +48,11 @@
 .contact__card-data{
     display: block;
     margin-bottom: var(--mb-0-75);
+}
+
+a{
+    color: black;
+   
 }
 
 .contact__button{

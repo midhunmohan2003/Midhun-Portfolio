@@ -10,21 +10,21 @@ function Projects() {
     <>
       <section className="work section " id="projects">
         <h2 className="section__title ">My Projects</h2>
-        <span className="section__subtitle">Most recent projects</span>
+        <span className="section__subtitle">Most Recent Projects</span>
 
         <div className="cards">
         <Row className="container-fluid mt-5">
           <Col sm={12} md={6} lg={4}>
             <Card style={{ width: "18rem" }} className="main-card mt-5">
-              <Card.Img variant="top" src={ProjectFair} width={"100%"} />
+              <Card.Img variant="top" src={ProjectFair} width={"100%"} className="card-img-top"/>
               <Card.Body>
                 <Card.Title>Project Fair</Card.Title>
-                <div className="mt-2">
-                  <a href="https://github.com/midhunmohan2003/project-fair.git" target="_blank" className="me-3 btn text-dark">
+                <div className="mt-2 icons">
+                  <a href="https://github.com/midhunmohan2003/project-fair.git" target="_blank" className="me-3 btn text-dark ">
                     
                     <i class="uil uil-github socialIcons"></i>{" "}
                   </a>
-                  <a href="https://project-fair-five-tau.vercel.app/" target="_blank" className="me-3 btn text-dark">
+                  <a href="https://project-fair-five-tau.vercel.app/" target="_blank" className="me-3 btn text-dark ">
                     
                     <i class="bx bx-link socialIcons"></i>{" "}
                   </a>
@@ -37,7 +37,7 @@ function Projects() {
         <Row className="container-fluid mt-5">
           <Col sm={12} md={6} lg={4}>
             <Card style={{ width: "18rem" }} className="main-card mt-5">
-              <Card.Img variant="top" src={MediaPlayer} width={"100%"} />
+              <Card.Img variant="top" src={MediaPlayer} width={"100%"} className="card-img-top"/>
               <Card.Body>
                 <Card.Title>Media Player</Card.Title>
                 <div className="mt-2">
@@ -58,7 +58,7 @@ function Projects() {
         <Row className="container-fluid mt-5">
           <Col sm={12} md={6} lg={4}>
             <Card style={{ width: "18rem" }} className="main-card mt-5">
-              <Card.Img variant="top" src={Game} width={"100%"}  />
+              <Card.Img variant="top" src={Game} width={"100%"} className="card-img-top"/>
               <Card.Body>
                 <Card.Title>Tic-Tac-Toe Game</Card.Title>
                 <div className="mt-2">

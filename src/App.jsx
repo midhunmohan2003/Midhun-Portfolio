@@ -1,4 +1,5 @@
 
+import { useEffect } from 'react'
 import './App.css'
 import About from './Components/about/About'
 import Contact from './Components/contact/Contact'
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <>
+    
       <Header/>
       <main className="main">
       <Home/>
