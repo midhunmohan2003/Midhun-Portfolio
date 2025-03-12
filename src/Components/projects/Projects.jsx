@@ -4,6 +4,7 @@ import { Card, Col, Row } from "react-bootstrap";
 import ProjectFair from '../../assets/projectfair.png'
 import MediaPlayer from '../../assets/mediaplayer.png'
 import Game from '../../assets/game.png'
+import Ecart from '../../assets/e-cart.png'
 
 function Projects() {
   return (
@@ -58,6 +59,27 @@ function Projects() {
         <Row className="container-fluid mt-5">
           <Col sm={12} md={6} lg={4}>
             <Card style={{ width: "18rem" }} className="main-card mt-5">
+              <Card.Img variant="top" src={Ecart} width={"100%"} className="card-img-top"/>
+              <Card.Body>
+                <Card.Title>E-Cart</Card.Title>
+                <div className="mt-2">
+                  <a href="https://github.com/midhunmohan2003/e-cart.git" target="_blank" className="me-3 btn text-dark">
+                    {" "}
+                    <i className="uil uil-github socialIcons"></i>{" "}
+                  </a>
+                  <a href="https://e-cart-sigma-six.vercel.app/" target="_blank" className="me-3 btn text-dark">
+                    {" "}
+                    <i className="bx bx-link socialIcons"></i>{" "}
+                  </a>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row className="container-fluid mt-5">
+          <Col sm={12} md={6} lg={4}>
+            <Card style={{ width: "18rem" }} className="main-card mt-5">
               <Card.Img variant="top" src={Game} width={"100%"} className="card-img-top"/>
               <Card.Body>
                 <Card.Title>Tic-Tac-Toe Game</Card.Title>
@@ -75,6 +97,7 @@ function Projects() {
             </Card>
           </Col>
         </Row>
+
         </div>
       </section>
     </>
