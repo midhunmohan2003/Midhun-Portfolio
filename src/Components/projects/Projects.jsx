@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+import { motion } from "framer-motion";
 import { Card, Col, Row } from "react-bootstrap";
 import ProjectFair from '../../assets/projectfair.png'
 import MediaPlayer from '../../assets/mediaplayer.png'
@@ -10,6 +11,13 @@ function Projects() {
   return (
     <>
       <section className="work section " id="projects">
+         <motion.div
+        className="container facility-section"
+        initial={{ opacity: 0, x: 50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 1 }}
+      >
         <h2 className="section__title ">My Projects</h2>
         <span className="section__subtitle">Most Recent Projects</span>
 
@@ -99,6 +107,7 @@ function Projects() {
         </Row>
 
         </div>
+        </motion.div>
       </section>
     </>
   );

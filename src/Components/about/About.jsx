@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import { motion } from "framer-motion";
 import AboutImg from '../../assets/about.jpg'
 import CV from '../../assets/Midhun Mohan_Resume.pdf'
 import Info from './Info'
@@ -7,7 +8,15 @@ import Info from './Info'
 function About() {
   return (
     <>
+    
       <section className="about section" id="about">
+      <motion.div
+        className="container mt-5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+      >
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">My Introduction</span>
 
@@ -52,7 +61,9 @@ function About() {
                 </a>
             </div>
         </div>
+        </motion.div>
       </section>
+      
     </>
   )
 }

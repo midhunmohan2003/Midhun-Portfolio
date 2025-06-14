@@ -1,10 +1,19 @@
 import React from 'react'
 import './footer.css'
+import { motion } from "framer-motion";
+
 
 function Footer() {
   return (
     <>
       <footer className="footer">
+        <motion.div
+        className="container mt-5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+      >
         <div className="footer__container container">
             <h1 className="footer__title">Midhun</h1>
             <ul className="footer__list">
@@ -32,6 +41,7 @@ function Footer() {
             </div>
             <span className='footer__copy'>&#169; Midhun Mohan. All rights reserved</span>
         </div>
+        </motion.div>
       </footer>
     </>
   )

@@ -1,9 +1,11 @@
 import React from "react";
 
+
 function Data() {
   return (
     <>
       <div className="home__data">
+        
         <h1 className="home__title">
           Midhun Mohan
         </h1>

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { motion } from "framer-motion";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -38,6 +39,13 @@ function Contact() {
   return (
     <>
       <section className="contact section" id="contact">
+         <motion.div
+        className="container facility-section"
+        initial={{ opacity: 0, y: 60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ duration: 1 }}
+      >
         <h2 className="section__title">Get In Touch</h2>
         <span className="section__subtitle">Contact Me</span>
 
@@ -140,6 +148,7 @@ function Contact() {
             </form>
           </div>
         </div>
+        </motion.div>
       </section>
       <ToastContainer autoClose={2000} position="top-center" theme="colored" />
     </>
