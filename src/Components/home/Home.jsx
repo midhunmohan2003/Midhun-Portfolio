@@ -10,7 +10,7 @@ function Home() {
     <>
       <section className="home section" id="home">
          <motion.div
-                className="container mt-5 facility-section"
+                className="container facility-section"
                 id="lab"
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}

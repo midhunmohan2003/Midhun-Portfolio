@@ -20,15 +20,14 @@ function Contact() {
       return;
     }
 
-    emailjs
-      .sendForm("service_ukuwcoc", "template_kbv3b0c", form.current, {
+    emailjs.sendForm("service_ukuwcoc", "template_kbv3b0c", form.current, {
         publicKey: "iS9yNSRBSYoH8CSDy",
       })
       .then(
         () => {
           console.log("SUCCESS!");
           e.target.reset();
-          toast.sucess("Email Sent");
+          toast.success("Email Sent");
         },
         (error) => {
           console.log("FAILED...", error.text);
