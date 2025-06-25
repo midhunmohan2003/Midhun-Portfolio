@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/Midhun Mohan_Resume.pdf";
 import Info from "./Info";
+import Qualifications from "./Qualifications";
 
 function About() {
   return (
@@ -31,7 +32,7 @@ function About() {
                 responsive, and user-friendly web interfaces. I'm passionate
                 about creating functional and visually engaging digital
                 experiences.
-              </p>
+              </p> <br />
               <a href={CV} download="" className="button button--flex">
                 Download Resume
                 <svg
@@ -63,6 +64,7 @@ function About() {
             </div>
           </div>
         </motion.div>
+        <Qualifications/>
       </section>
     </>
   );
