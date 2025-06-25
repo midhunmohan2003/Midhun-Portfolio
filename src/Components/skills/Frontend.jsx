@@ -63,8 +63,7 @@ function Frontend() {
                     <h3 className="skills__name">React</h3>
                 </div>
                 </div>
-
-                
+    
                 
             </div>
         </div>
