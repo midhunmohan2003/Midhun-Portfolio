@@ -60,7 +60,10 @@ function Qualifications() {
                             <i className="uil uil-calendar-alt"></i>2019 - 2021
                         </div>
                     </div>
+
                 </div>
+
+                
             </div>
 
 
@@ -68,10 +71,10 @@ function Qualifications() {
                 
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">MERN Stack Developer Intern</h3>
-                        <span className="qualification__subtitle">Luminar Tachnolab Kochi</span>
+                        <h3 className="qualification__title">Frontend Developer Intern</h3> 
+                        <span className="qualification__subtitle">Devfrend Web Solutions</span> 
                         <div className="qualification__calendar">
-                            <i className="uil uil-calendar-alt"></i>June 2024 - Jan 2025
+                            <i className="uil uil-calendar-alt"></i>May 2025 - June 2025
                         </div>
                     </div>
                     <div>
@@ -89,13 +92,15 @@ function Qualifications() {
                     </div>
 
                     <div>
-                        <h3 className="qualification__title">Frontend Developer Intern</h3>
-                        <span className="qualification__subtitle">Devfrend Web Solution</span>
+                        <h3 className="qualification__title">MERN Stack Developer Intern</h3>
+                        <span className="qualification__subtitle">Luminar Technolab Kochi</span>
                         <div className="qualification__calendar">
-                            <i className="uil uil-calendar-alt"></i> May 2025 - June 2025
+                            <i className="uil uil-calendar-alt"></i>June 2024 - Jan 2025
                         </div>
                     </div>
                 </div>
+
+                
 
             </div>
 

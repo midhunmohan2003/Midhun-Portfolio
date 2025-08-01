@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import { motion } from "framer-motion";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Midhun Mohan_Resume.pdf";
+import CV from "../../assets/Midhun Mohan - Resume.pdf";
 import Info from "./Info";
 import Qualifications from "./Qualifications";
 
