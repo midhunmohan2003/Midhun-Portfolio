@@ -68,41 +68,55 @@ function Qualifications() {
 
 
              <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
-                
-                <div className="qualification__data">
-                    <div>
-                        <h3 className="qualification__title">Frontend Developer Intern</h3> 
-                        <span className="qualification__subtitle">Devfrend Web Solutions</span> 
-                        <div className="qualification__calendar">
-                            <i className="uil uil-calendar-alt"></i>May 2025 - June 2025
-                        </div>
-                    </div>
-                    <div>
-                        <span className="qualification__rounder"></span>
-                        <span className="qualification__line"></span>
-                    </div>
-                </div>
 
-                 <div className="qualification__data">
-                    <div></div>
+  {/* LEFT: Zaalima */}
+  <div className="qualification__data">
+    <div>
+      <h3 className="qualification__title">Web Developer Intern</h3>
+      <span className="qualification__subtitle">Zaalima Development</span>
+      <div className="qualification__calendar">
+        <i className="uil uil-calendar-alt"></i>April 2025 - July 2025
+      </div>
+    </div>
+    <div>
+      <span className="qualification__rounder"></span>
+      <span className="qualification__line"></span>
+    </div>
+  </div>
 
-                    <div>
-                        <span className="qualification__rounder"></span>
-                        <span className="qualification__line"></span>
-                    </div>
+  {/* RIGHT: Devfrend */}
+  <div className="qualification__data">
+    <div></div>
+    <div>
+      <span className="qualification__rounder"></span>
+      <span className="qualification__line"></span>
+    </div>
+    <div>
+      <h3 className="qualification__title">Frontend Developer Intern</h3>
+      <span className="qualification__subtitle">Devfrend Web Solutions</span>
+      <div className="qualification__calendar">
+        <i className="uil uil-calendar-alt"></i>May 2025 - June 2025
+      </div>
+    </div>
+  </div>
 
-                    <div>
-                        <h3 className="qualification__title">MERN Stack Developer Intern</h3>
-                        <span className="qualification__subtitle">Luminar Technolab Kochi</span>
-                        <div className="qualification__calendar">
-                            <i className="uil uil-calendar-alt"></i>June 2024 - Jan 2025
-                        </div>
-                    </div>
-                </div>
+  {/* LEFT: Luminar */}
+  <div className="qualification__data">
+    <div>
+      <h3 className="qualification__title">MERN Stack Developer Intern</h3>
+      <span className="qualification__subtitle">Luminar Technolab Kochi</span>
+      <div className="qualification__calendar">
+        <i className="uil uil-calendar-alt"></i>June 2024 - Jan 2025
+      </div>
+    </div>
+    <div>
+      <span className="qualification__rounder"></span>
+      <span className="qualification__line"></span>
+    </div>
+  </div>
 
-                
+</div>
 
-            </div>
 
 
         </div>
