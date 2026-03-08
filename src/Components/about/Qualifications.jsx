@@ -31,12 +31,13 @@ function Qualifications() {
         <div className="qualification__sections">
             <div className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
 
+                {/* first one */}
                 <div className="qualification__data">
                     <div>
-                        <h3 className="qualification__title">BSc Computer Science</h3>
-                        <span className="qualification__subtitle">Kerala University</span>
+                        <h3 className="qualification__title">Diploma in UI/UX</h3>
+                        <span className="qualification__subtitle">Marvelloux Academy</span>
                         <div className="qualification__calendar">
-                            <i className="uil uil-calendar-alt"></i>2021 - 2024
+                            <i className="uil uil-calendar-alt"></i>2025-2026
                         </div>
                     </div>
                     <div>
@@ -44,7 +45,10 @@ function Qualifications() {
                         <span className="qualification__line"></span>
                     </div>
                 </div>
-
+                
+                
+                
+                {/* second one */}
                  <div className="qualification__data">
                     <div></div>
 
@@ -54,10 +58,10 @@ function Qualifications() {
                     </div>
 
                     <div>
-                        <h3 className="qualification__title">Higher Secondary</h3>
-                        <span className="qualification__subtitle">Kerala State Board</span>
+                        <h3 className="qualification__title">BSc Computer Science</h3>
+                        <span className="qualification__subtitle">Kerala University</span>
                         <div className="qualification__calendar">
-                            <i className="uil uil-calendar-alt"></i>2019 - 2021
+                            <i className="uil uil-calendar-alt"></i>2021 - 2024
                         </div>
                     </div>
 

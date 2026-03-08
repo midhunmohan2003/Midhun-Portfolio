@@ -6,11 +6,14 @@
     padding-top: 3px;
     /* z-index: var(--body-color);     */
     z-index: 1000;
+     /* Normal header */
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .scroll-header {
     background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 
@@ -25,6 +28,7 @@
 .nav__logo,.nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    margin-top: 15px;
 }
 
 .nav__list{
@@ -40,6 +44,7 @@
     color: var(--title-color);
     font-weight: var(--font-medium);
     transition: .3s;
+    margin-top: 15px;
 }
 
 

@@ -22,17 +22,22 @@ function About() {
 
           <div className="about__container container grid">
             <img src={AboutImg} alt="" className="about__img" />
+            
 
             <div className="about__data">
-              <Info />
-              <p className="about__description">
-                I'm a Full Stack Developer with a strong front-end focus,
-                especially in React.js and Tailwind CSS. I have hands-on
-                experience with the MERN stack and enjoy building clean,
-                responsive, and user-friendly web interfaces. I'm passionate
-                about creating functional and visually engaging digital
-                experiences.
-              </p> <br />
+              {/* <Info /> */}
+             <p className="about__description">
+  I'm a UI/UX designer with a background in Computer Science, passionate about 
+  turning complex ideas into clean, intuitive digital experiences.
+  <br />
+    With a working knowledge of HTML and CSS, I design interfaces that are not 
+  only visually engaging but also technically practical and developer-friendly. 
+  
+  <br />
+My approach focuses on clarity, usability, and thoughtful design decisions 
+  that solve real user problems. I believe great design is not just about how 
+  it looks — but how it works and feels.
+</p> <br />
               <a href={CV} download="" className="button button--flex">
                 Download Resume
                 <svg

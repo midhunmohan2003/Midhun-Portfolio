@@ -17,11 +17,13 @@ function Skills() {
         transition={{ duration: 1.2, }}
       >
       <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My Technical Level</span>
+      <span className="section__subtitle">Tools I Use to Craft Experiences</span>
       
       <div className="skills__container container grid">
-        <Frontend/>
+
         <Backend/>
+        <Frontend/>
+        
       </div>
       </motion.div>
       </section>

@@ -1,13 +1,14 @@
 .skills__container{
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
+    row-gap: 2rem; /* space between cards */
     justify-content: center;
 }
 
 .skills__content{
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 2rem 4rem;
+    padding: 2rem 3rem; /* slightly balanced padding */
     border-radius: 1.25rem;
 }
 
@@ -15,25 +16,26 @@
     font-size: var(--normal-font-size);
     font-weight: var(--normal-medium);
     text-align: center;
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: 2rem; /* more space between title and skills */
 }
 
 .skills__box{
     display: flex;
     justify-content: center;
-    column-gap: 2.5rem;
+    column-gap: 3rem; /* space between two columns */
 }
 
 .skills__group{
-    margin-top: 1px;
+    margin-top: 0.5rem;
     display: grid;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 1.2rem; /* space between skill items */
 }
 
 .skills__data{
     display: flex;
-    column-gap: 0.5rem;
+    align-items: center;
+    column-gap: 0.6rem;
 }
 
 .skills .bx-badge-check{
@@ -44,7 +46,6 @@
 .skills__name{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-
 }
 
 

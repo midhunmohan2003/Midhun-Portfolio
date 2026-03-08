@@ -8,6 +8,29 @@
     margin-top: 22px;
 }
 
+.tech-stack{
+  font-size: 13px;
+  color: #666;
+  margin-top: 6px;
+}
+
+.live-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.live-link span{
+  font-size: 13px;
+}
+
+.live-link:hover{
+  color: black;
+}
+
 .main-card{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.75rem;
