@@ -281,3 +281,13 @@ html {
     }
 
 }
+
+/* MOBILE FIX */
+
+@media (max-width: 576px){
+
+  .home__tools{
+    justify-content: center;
+  }
+
+}
