@@ -39,15 +39,7 @@ function Header() {
         <div className={toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
 
-            <li className="nav__item">
-              <a
-                href="#home"
-                onClick={() => handleNavClick("#home")}
-                className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}
-              >
-                <i className="uil uil-estate nav__icon"></i> Home
-              </a>
-            </li>
+           
 
             <li className="nav__item">
               <a
@@ -59,6 +51,26 @@ function Header() {
               </a>
             </li>
 
+             <li className="nav__item">
+              <a
+                href="#services"
+                onClick={() => handleNavClick("#services")}
+                className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}
+              >
+                <i className="uil uil-estate nav__icon"></i> Services
+              </a>
+            </li>
+
+             <li className="nav__item">
+              <a
+                href="#projects"
+                onClick={() => handleNavClick("#projects")}
+                className={activeNav === "#projects" ? "nav__link active-link" : "nav__link"}
+              >
+                <i className="uil uil-scenery nav__icon"></i> Projects
+              </a>
+            </li> 
+
             <li className="nav__item">
               <a
                 href="#skills"
@@ -69,15 +81,7 @@ function Header() {
               </a>
             </li>
 
-            <li className="nav__item">
-              <a
-                href="#projects"
-                onClick={() => handleNavClick("#projects")}
-                className={activeNav === "#projects" ? "nav__link active-link" : "nav__link"}
-              >
-                <i className="uil uil-scenery nav__icon"></i> Projects
-              </a>
-            </li>
+           
 
             <li className="nav__item">
               <a

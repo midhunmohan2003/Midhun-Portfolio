@@ -8,6 +8,7 @@ import Header from './Components/header/Header'
 import Home from './Components/home/Home'
 import Projects from './Components/projects/Projects'
 import Skills from './Components/skills/Skills'
+import Services from './Components/servicesection/Services'
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
       <main className="main">
       <Home/>
       <About/>
-      <Projects/>
       <Skills/>
+      <Services/>
+      <Projects/>
       <Contact/>
       </main>
       <Footer/>

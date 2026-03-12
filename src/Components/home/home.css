@@ -58,6 +58,60 @@ html {
     font-weight: 600;
 }
 
+/* TOOLS SECTION */
+
+.home__tools-wrapper{
+  margin-top:18px;
+}
+
+/* Tools label */
+
+.tools-title{
+  font-size:14px;
+  /* color:#888; */
+  margin-bottom:10px;
+  display:block;
+}
+ 
+/* Tools container */
+
+.home__tools{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+/* Tool pill */
+
+.tool{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 14px;
+  border-radius:20px;
+  border:1px solid rgba(0,0,0,0.15);
+  font-size:14px;
+  background:#fafafa;
+  transition:0.25s ease;
+}
+
+/* Tool icon */
+
+.tool img{
+  width:18px;
+  height:18px;
+  /* filter: grayscale(100%); */
+}
+
+/* Hover */
+
+.tool:hover{
+  transform:translateY(-3px);
+  border-color:#000;
+  background:#f2f2f2;
+  color: var(--title-color-dark);
+}
+
 /* Tagline */
 
 .home__tagline{
