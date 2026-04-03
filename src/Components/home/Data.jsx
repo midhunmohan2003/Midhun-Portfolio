@@ -46,8 +46,22 @@ function Data() {
           </div>
 
         </div>
+      </div> <br />
 
-      </div>
+                    <a href="#projects" className="button button--flex">
+                      View My Works
+                      <svg
+                        class="button__icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                      </svg>
+                    </a>
+
+
 
     </div>
   );

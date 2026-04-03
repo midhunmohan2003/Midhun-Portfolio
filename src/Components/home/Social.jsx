@@ -4,9 +4,9 @@ function Social() {
   return (
     <>
       <div className="home__social">
-        <a href="https://www.instagram.com/mi_._dhun/" className="home__social-icon" target='_blank'>
-        <i class="uil uil-instagram"></i>
-        </a>
+<a href="https://www.behance.net/midhunmohan2003" className="home__social-icon" target="_blank">
+  <i className="uil uil-behance"></i>
+</a>
 
         <a href="https://www.linkedin.com/in/midhunmohan2003" className="home__social-icon" target='_blank'>
         <i class="uil uil-linkedin"></i>

@@ -36,7 +36,7 @@ function Projects() {
       description:
         "Mobile application designed to help users easily find and book trusted home service professionals.",
       tech: "Figma • UI/UX Design • Prototyping • Adobe Illustrator",
-      live: "https://www.figma.com/proto/uFgqZANlttrf3TuFyPCQNR/Fixit.?node-id=156-309&t=JjpSorCPmV2CElmk-1",
+      live: "https://www.behance.net/gallery/246941293/FixIt",
     },
 
     {
