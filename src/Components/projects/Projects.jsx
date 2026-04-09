@@ -46,7 +46,7 @@ function Projects() {
       description:
         "A clean and intuitive dashboard interface designed to monitor fleet activity, track vehicle status, and visualize operational data for efficient fleet management.",
       tech: "Figma • UI/UX Design • Prototyping",
-      live: "https://www.figma.com/proto/piG7lvJrmhxGPDShLJUEUx/Tasks?node-id=199-2472&t=4y9E1qkOov1NZQe4-1",
+      live: "https://www.behance.net/gallery/247311087/Fleet-Hub-Dashboard",
     },
 
     {
